@@ -1,0 +1,13 @@
+# basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+# print(basket)
+# print(len(basket))
+# print("orange" in basket)
+# print("orangesss" in basket)
+a = set('abracadabra')
+print(a)
+b = set('alacazam')
+print(b)
+print(a ^ b)
+print(a & b)
+print(a | b)
+print(a-b)

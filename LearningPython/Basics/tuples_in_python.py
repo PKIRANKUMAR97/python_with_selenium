@@ -1,0 +1,7 @@
+demo_t1 = (1, 2, 3, 4, 5, 6)
+demo_t2 = ("Delhi", "Goa", "Bangalore", "Punjab", "Kashmir", "Vizag", "Pune")
+demo_t3 = (True, False, True, True)
+demo_t4 = (1, 56.789, "Python", True)
+print(demo_t2[5])
+print(len(demo_t1))
+print(type(demo_t4))

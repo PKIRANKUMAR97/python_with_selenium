@@ -9,6 +9,8 @@ demo_t4 = (1, 56.789, "Python", True)
 # print(demo_t2.index("Goa"))
 # print(demo_t2.index("Goa", 2, len(demo_t2)))
 # print(demo_t2[3])
+print(demo_t2[1:len(demo_t2)])
+print(demo_t2[1:len(demo_t1)])
 join_t = demo_t1 + demo_t4
 print(join_t)
 print(type(join_t))

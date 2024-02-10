@@ -90,10 +90,10 @@
 #     if x == 5:
 #         break
 #     print("we are in the parent loop")
-# else: # else is not printed here because of the break statement in the while loop
+# else: # The else block will NOT be executed if the loop is stopped by a break statement.
 #     print("we are out of the loop")
 
-# ex 7 while else loop without break 
+# ex 7 while else loop without break
 x = 0
 while x <= 5:
     print(x)

@@ -28,7 +28,18 @@
 # for x,y in zip(list1,list2):
 #     print(x,y)
 
-set1 = {"India", "china", "Japan", "America"}
-set2 = {"Hyderabad", "Beijing", "Tokyo", "Newyork"}
-for x,y in zip(set1,set2):
-    print(x,y)
+# set1 = {"India", "china", "Japan", "America"}
+# set2 = {"Hyderabad", "Beijing", "Tokyo", "Newyork"}
+# for x,y in zip(set1,set2):
+#     print(x,y)
+
+
+name = ["Manjeet", "Nikhil", "Shambhavi", "Astha"]
+roll_no = [4, 1, 3, 2]
+# using zip() to map values
+mapped = zip(name, roll_no)
+# print(mapped) # this provides the address
+# print(list(mapped))  # convert it into list
+print(set(mapped))  # convert it into set
+
+

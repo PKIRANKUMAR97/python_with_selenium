@@ -1,4 +1,3 @@
-
 """
 def addition(x, y, z):
     print(x + y + z)
@@ -18,6 +17,7 @@ print(f"The addition of {num1} and {num2} results {ans}.")
 print("The addition of {num1} and {num2} results {ans}.")
 
 """
+
 def add(a,b,c):
     """
     This is a function for adding 2 numbers

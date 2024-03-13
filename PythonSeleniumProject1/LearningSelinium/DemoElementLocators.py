@@ -19,8 +19,9 @@ class DemoFindElementByName():
     def locate_by_name_demo(self):
         driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
         driver.get("https://secure.yatra.com/social/common/yatra/signin.htm")
-        driver.find_element_by_name('login-input').send_keys('qwerty.com')
+        driver.find_element_by_xpath("//input[@id='login-input']").send_keys('qwerty.com')
         time.sleep(4)
+        driver.close()
 
 
 findbyname = DemoFindElementByName()
